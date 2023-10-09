@@ -1,0 +1,72 @@
+body {
+    background-image: url("flower.jpeg");
+    background-color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-position: right bottom;
+}
+
+#container {
+    background-color: rgb(240, 240, 240);
+    width: 30%;
+    margin-top: 100px;
+    padding: 20px;
+    border: 3px solid #fff;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+#guess{
+    padding: 10px;
+    width: 40%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    border: none;
+}
+
+#btn {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    background-color: #185ADB;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+@media all and(max-width: 800px){
+    body {
+        background-position: bottom;
+        }
+
+    #guess{
+        width: 80px;
+        padding: 5px;
+        font-size: 10px;
+    }
+    
+    #container {
+        width: 300px;
+        }
+}
+
+@media all and(max-width: 500px){
+    body {
+        background-position: bottom;
+        }
+
+    #guess{
+        width: 250px;
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    #container {
+        width: 200px;
+        }
+}
